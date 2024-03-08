@@ -1,0 +1,32 @@
+[
+    {
+      "title": "God Of War (2018)",
+      "description": "God of War is an action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. The game was released for the PlayStation 4 in April 2018. It is the eighth installment in the God of War series, the eighth chronologically, and the sequel to 2010's God of War III.",
+      "image_url": "./images/catalog/videogames/godOfWar.png"
+    },
+    {
+      "title": "Hogwarts Legacy",
+      "description": "Hogwarts Legacy is a 2023 action role-playing game developed by Avalanche Software and published by Warner Bros. Games under its Portkey Games label. The game is part of the Wizarding World franchise, taking place a century prior to the events chronicled in the Harry Potter novels. The player controls a student enrolled in the Hogwarts School of Witchcraft and Wizardry who learns to wield an array of magical abilities and objects. With the assistance of fellow students and professors, the protagonist embarks on a journey to unearth an ancient secret concealed within the wizarding world.",
+      "image_url": "./images/catalog/videogames/HogwartsLegacy.png"
+    },
+    {
+      "title": "Horizon Forbidden West",
+      "description": "Horizon Forbidden West is a 2022 action role-playing game developed by Guerrilla Games and published by Sony Interactive Entertainment. The game was released for PlayStation 4 and PlayStation 5 on 18 February 2022. The sequel to 2017's Horizon Zero Dawn, Horizon Forbidden West is set in a post-apocalyptic version of the Western United States recovering from the aftermath of an extinction event caused by a rogue robot swarm.",
+      "image_url": "./images/catalog/videogames/Horizon.png"
+    },
+    {
+      "title": "The Last Of Us",
+      "description": "The Last of Us is a 2013 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment. Players control Joel, a smuggler tasked with escorting a teenage girl, Ellie, across a post-apocalyptic United States. The Last of Us is played from a third-person perspective. Players use firearms and improvised weapons and can use stealth to defend against hostile humans and cannibalistic creatures infected by a mutated fungus",
+      "image_url": "./images/catalog/videogames/lastOfUs.jpg"
+    },
+    {
+      "title": "Spiderman2",
+      "description": "Marvel's Spider-Man 2 is a 2023 action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment. It is based on the Marvel Comics character Spider-Man, and features a narrative inspired by its long-running comic book mythology which is also derived from various adaptations in other media. It is the third entry in the Marvel's Spider-Man series, acting as a sequel to Marvel's Spider-Man (2018) and a follow-up to Marvel's Spider-Man: Miles Morales (2020).",
+      "image_url": "./images/catalog/videogames/spiderman2.jpg"
+    },
+    {
+      "title": "Elden Ring",
+      "description": "Elden Ring is a 2022 action role-playing game developed by FromSoftware. It was directed by Hidetaka Miyazaki with worldbuilding provided by fantasy writer George R. R. Martin. It was published for PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S on February 25 by FromSoftware in Japan and Bandai Namco Entertainment internationally. Players control a customizable player character who is on a quest to repair the Elden Ring and become the new Elden Lord.",
+      "image_url": "./images/catalog/videogames/EldenRing.jpg"
+    }
+  ]
