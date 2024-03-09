@@ -1,18 +1,19 @@
 function getTable(tableName){
     fetch("./data.json")    
         .then(response => response.json())
-        .then(myMovies => myMovies[tableName])
-        .then(myMovies => loadMovies(myMovies));
+        .then(games => games[tableName])
+        .then(games => loadMovies(games));
 
-        function loadMovies(myMovies) {
+        function loadMovies(games) {
             // Find the element “col” in HTML
             var CardMovie = document.getElementById("col");
             var cards = [];
             // Read every movie from the array
-            for (var i = 0; i < myMovies.length; i++) {
-                let title = myMovies[i].title;
-                let description = myMovies[i].description;
-                let url = myMovies[i].image_url;
+            for (var i = 0; i < games.length; i++) {
+                let title = games[i].title;
+                let review = games[i].review;
+                let description = games[i].description;
+                let url = games[i].image_url;
                 let card = "card" + i.toString();
                 // create a new HTML div division
                 let AddCardMovie = document.createElement("div");
@@ -38,7 +39,7 @@ function getTable(tableName){
                             <div class="card review-card" id=${title}>
                                 <div class="card-body">
                                     <h6 class="card-title">Review</h6>
-                                    <p class="card-text" id = "${title}review">Insert review here</p>
+                                    <p class="card-text" id = "${title}review">${review}</p>
                                     <input type="text" id="${title}text" placeholder="Enter your review">
                                     <button id="${title}">Add Review</button>
                                 </div>
@@ -49,15 +50,12 @@ function getTable(tableName){
                     </div>
                 </div>
                 `;
-                // append new division
                 CardMovie.appendChild(AddCardMovie);
 
                 let ccard = document.getElementById(card);
                 cards.push(ccard);
 
                 document.getElementById(title).addEventListener("click", function() {
-                //let review = document.getElementById("reviewInput").value;
-                //let information = document.getElementById("hiddenInput").value;
                 const title = event.target.id;
                 document.getElementById(title+"review").innerText = document.getElementById(title+"text").value;
                 })
