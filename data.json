@@ -1,4 +1,6 @@
-[
+{
+  "fantasy":
+  [
     {
       "title": "God Of War (2018)",
       "description": "God of War is an action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. The game was released for the PlayStation 4 in April 2018. It is the eighth installment in the God of War series, the eighth chronologically, and the sequel to 2010's God of War III.",
@@ -18,7 +20,10 @@
       "title": "The Last Of Us",
       "description": "The Last of Us is a 2013 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment. Players control Joel, a smuggler tasked with escorting a teenage girl, Ellie, across a post-apocalyptic United States. The Last of Us is played from a third-person perspective. Players use firearms and improvised weapons and can use stealth to defend against hostile humans and cannibalistic creatures infected by a mutated fungus",
       "image_url": "./images/catalog/videogames/lastOfUs.jpg"
-    },
+    }
+  ],
+  "Drama": 
+  [
     {
       "title": "Spiderman2",
       "description": "Marvel's Spider-Man 2 is a 2023 action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment. It is based on the Marvel Comics character Spider-Man, and features a narrative inspired by its long-running comic book mythology which is also derived from various adaptations in other media. It is the third entry in the Marvel's Spider-Man series, acting as a sequel to Marvel's Spider-Man (2018) and a follow-up to Marvel's Spider-Man: Miles Morales (2020).",
@@ -30,3 +35,4 @@
       "image_url": "./images/catalog/videogames/EldenRing.jpg"
     }
   ]
+}
