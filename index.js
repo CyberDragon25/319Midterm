@@ -38,7 +38,9 @@ function getTable(tableName){
                             <div class="card review-card" id=${title}>
                                 <div class="card-body">
                                     <h6 class="card-title">Review</h6>
-                                    <p class="card-text">Insert review here</p>
+                                    <p class="card-text" id = "${title}review">Insert review here</p>
+                                    <input type="text" id="${title}text" placeholder="Enter your review">
+                                    <button id="${title}">Add Review</button>
                                 </div>
                             </div>
                         </div>
@@ -53,20 +55,15 @@ function getTable(tableName){
                 let ccard = document.getElementById(card);
                 cards.push(ccard);
 
+                document.getElementById(title).addEventListener("click", function() {
+                //let review = document.getElementById("reviewInput").value;
+                //let information = document.getElementById("hiddenInput").value;
+                const title = event.target.id;
+                document.getElementById(title+"review").innerText = document.getElementById(title+"text").value;
+                })
 
             } // end of for
-            console.log(cards);
-            // Add event listeners to checkboxes to toggle card visibility
-            checkboxes.forEach((checkboxParam, index) => {
-                console.log(index);
-                checkboxParam.addEventListener('change', () => {
-                    if (checkboxParam.checked) {
-                        cards[index].style.display = 'block'; // Show the card
-                    }
-                    else {
-                        cards[index].style.display = 'none'; // Hide the card
-                    }
-                });
-            });
+
+            
         } // end of function
 }

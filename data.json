@@ -5,24 +5,28 @@
       "title": "God Of War (2018)",
       "description": "God of War is an action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. The game was released for the PlayStation 4 in April 2018. It is the eighth installment in the God of War series, the eighth chronologically, and the sequel to 2010's God of War III.",
       "image_url": "./images/catalog/fantasy/godOfWar.png",
+      "id": 1,
       "reviews" : []
     },
     {
       "title": "Hogwarts Legacy",
       "description": "Hogwarts Legacy is a 2023 action role-playing game developed by Avalanche Software and published by Warner Bros. Games under its Portkey Games label. The game is part of the Wizarding World franchise, taking place a century prior to the events chronicled in the Harry Potter novels. The player controls a student enrolled in the Hogwarts School of Witchcraft and Wizardry who learns to wield an array of magical abilities and objects. With the assistance of fellow students and professors, the protagonist embarks on a journey to unearth an ancient secret concealed within the wizarding world.",
       "image_url": "./images/catalog/fantasy/HogwartsLegacy.png",
+      "id": 2,
       "reviews" : []
     },
     {
       "title": "Elden Ring",
       "description": "Elden Ring is a 2022 action role-playing game developed by FromSoftware. It was directed by Hidetaka Miyazaki with worldbuilding provided by fantasy writer George R. R. Martin. It was published for PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S on February 25 by FromSoftware in Japan and Bandai Namco Entertainment internationally. Players control a customizable player character who is on a quest to repair the Elden Ring and become the new Elden Lord.",
       "image_url": "./images/catalog/fantasy/EldenRing.jpg",
+      "id": 3,
       "reviews" : []
     },
     {
       "title": "Witcher 3: Wild Hunt",
       "description": "The Witcher 3: Wild Hunt is a 2015 action role-playing game developed and published by CD Projekt. It is the sequel to the 2011 game The Witcher 2: Assassins of Kings and the third game in The Witcher video game series, played in an open world with a third-person perspective. The games follow the Witcher series of fantasy novels written by Andrzej Sapkowski.",
       "image_url": "./images/catalog/fantasy/witcher.jpg",
+      "id": 4,
       "reviews" : []
     }
   ],
@@ -32,24 +36,28 @@
       "title": "Horizon Forbidden West",
       "description": "Horizon Forbidden West is a 2022 action role-playing game developed by Guerrilla Games and published by Sony Interactive Entertainment. The game was released for PlayStation 4 and PlayStation 5 on 18 February 2022. The sequel to 2017's Horizon Zero Dawn, Horizon Forbidden West is set in a post-apocalyptic version of the Western United States recovering from the aftermath of an extinction event caused by a rogue robot swarm.",
       "image_url": "./images/catalog/scifi/Horizon.png",
+      "id": 5,
       "reviews" : []
     },
     {
       "title": "Bioshock",
       "description": "The game follows player character Jack, who discovers the underwater city of Rapture, built by business magnate Andrew Ryan to be an isolated utopia. The discovery of ADAM, a genetic material which grants superhuman powers, initiated the city's turbulent decline. Jack attempts to escape, fighting ADAM-obsessed enemies and Big Daddies, while engaging with the few sane people that remain and learning of Rapture's past. The player can defeat foes in several ways by using weapons, utilizing plasmids that give unique powers, and by turning Rapture's defenses against them.", 
       "image_url": "./images/catalog/scifi/bioshock.jpg",
+      "id": 6,
       "reviews" : []
     },
     {
       "title": "Starcraft",
       "description": "Set in a fictitious future timeline during the 25th century AD in a distant part of the Milky Way galaxy known as the Koprulu Sector, the game revolves around three intelligent species fighting for dominance: the Terrans are humans exiled from Earth who are now skilled at adapting to any situation; the Zerg are a race of insectoid aliens in pursuit of genetic perfection and obsessed with assimilating other races; the Protoss are a humanoid species with advanced technology and psionic abilities who are attempting to preserve their civilization and strict philosophy about their way of life from the Zerg.",
       "image_url": "./images/catalog/scifi/starcraft.jpg",
+      "id": 7,
       "reviews" : []
     },
     {
       "title": "Portal 2",
       "description": "In the single-player campaign, players control Chell, who navigates the dilapidated Aperture Science Enrichment Center during its reconstruction by the supercomputer GLaDOS; new characters include robot Wheatley and Aperture founder Cave Johnson.",      
       "image_url": "./images/catalog/scifi/portal2.jpg",
+      "id": 8,
       "reviews" : []
     }
   ]
