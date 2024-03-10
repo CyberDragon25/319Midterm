@@ -51,11 +51,16 @@
         }
 
         .team-member {
+            background-color: black;
+            text-align: center;
+            color: white;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-bottom: 50px;
             animation: fadeInUp 1s ease-out;
+            box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7), 0 0 20px 10px rgba(255, 255, 255, 0.5), 0 0 30px 15px rgba(255, 255, 255, 0.3);
+            text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.6);
             
         }
 
@@ -69,30 +74,162 @@
             animation: fadeInUp 1s ease-out;
         }
 
-        #sb-text{
-            padding-left: 50px;
+        main {
+            /* Adding red neon glow effect to the background */
+            border: 2px solid white;
+            box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.7), 0 0 20px 10px rgba(255, 0, 0, 0.5), 0 0 30px 15px rgba(255, 0, 0, 0.3);
+            margin-top: 20px;
+            padding-top: 20px;
+            background-color: black;
+            color: white;
+            text-shadow: 0 0 10px rgba(255, 0, 0, 1), 0 0 20px rgba(255, 0, 0, 0.8), 0 0 30px rgba(255, 0, 0, 0.6);
+
         }
+
+        footer {
+            background-color: #222; 
+            color: #fff;
+            padding: 20px 0; 
+            text-align: center; 
+            font-size: 16px; 
+        }
+
+        footer p {
+            margin: 0; 
+        }
+
+        footer a {
+            color: #fff; 
+            text-decoration: none; 
+        }
+
+        .navbar { 
+            color: #fff;
+            padding: 10px 0;
+            height: auto;
+            margin: 20px;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .navbar-brand {
+            float: left;
+        }
+
+        .navbar-brand a {
+            display: block;
+            padding: 10px 15px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar-menu {
+            float: right;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            flex-grow: 1;
+        }
+
+        .navbar-item {
+            display: inline-block;
+            position: relative;
+        }
+
+        .navbar-link {
+            display: block;
+            padding: 10px 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .navbar-link:hover {
+            background-color: white;
+            color : red;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 150px;
+            z-index: 1;
+        }
+
+        .dropdown-menu li {
+            padding: 10px;
+        }
+
+        .navbar-item:hover .dropdown-menu {
+            display: block;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .dropdown-menu li {
+            padding: 10px;
+            list-style: none;
+        }
+
+        .dropdown-menu li a {
+            text-decoration: none; 
+            color: black;
+
+        }
+
+        .dropdown-menu li a:hover {
+            background-color: white;
+            color : red;
+        }
+
     </style>
 </head>
 
 <body>
     <header>
-  
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="./index.html">Video Game Catalog</a>
+                </div>
+                <ul class="navbar-menu">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">About Us</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Games</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./fantasy.html">Fantasy</a></li>
+                            <li><a href="./scifi.html">Sci-Fi</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
+
 
     <main>
         <section id="about-us">
             <div class="container">
                 <h2>About Us</h2>
-                <p>Welcome to <strong>Your Website Name</strong>, where creativity meets innovation! Our website is a
-                    platform dedicated to [brief description of your website's purpose and mission]. We strive to
-                    [highlight the main goals or objectives of your website].</p>
+                <p>Welcome to <strong>Video Game Catalog</strong>, where creativity meets innovation! Our website is a
+                    platform dedicated to reviewing video games and looking at other reviews. We strive to
+                    make this the most popular video game reviewing site.</p>
             </div>
         </section>
 
         <section id="meet-the-team">
             <div class="container">
-                <h2>Meet the Team</h2>
+                <h2 style="text-align: center; margin-bottom: 50px; margin-top: -20px;">Meet the Team</h2>
                 <div class="team-member fadeInUp">
                     <img src="./images/profile/subham_profile.jpg" alt="Your Name">
                     <div class="member-info">
@@ -115,9 +252,9 @@
         </section>
     </main>
 
-    <footer>
-        <!-- Your footer content -->
-    </footer>
+<footer>
+    <p>&copy; 2024 Video Game Catalog. All rights reserved.</p>
+</footer>
 
     <!-- <script src="scripts.js"></script> -->
 </body>
