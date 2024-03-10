@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Your Website Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css */
+        .container {
+            min-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #about-us, #meet-the-team {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+/* Additional CSS for other elements */
+
+        /* CSS for animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fadeInUp {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        #about-us{
+            background-color: black;
+            color: white;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .team-member {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+            animation: fadeInUp 1s ease-out;
+            
+        }
+
+        .team-member img {
+            width: 400px;
+            height: 400px;
+        }
+
+        .member-info {
+            margin: 20px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        #sb-text{
+            padding-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+  
+    </header>
+
+    <main>
+        <section id="about-us">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Welcome to <strong>Your Website Name</strong>, where creativity meets innovation! Our website is a
+                    platform dedicated to [brief description of your website's purpose and mission]. We strive to
+                    [highlight the main goals or objectives of your website].</p>
+            </div>
+        </section>
+
+        <section id="meet-the-team">
+            <div class="container">
+                <h2>Meet the Team</h2>
+                <div class="team-member fadeInUp">
+                    <img src="./images/profile/subham_profile.jpg" alt="Your Name">
+                    <div class="member-info">
+                        <h3>Subham Bhattacharya</h3>
+                        <p id="sb-text"><strong>Role:</strong> Web developer</p>
+                        <p>I have Web and Frontend Experiences of about 2 years. Most of experince is through personal projects and self-learning
+                        through websites like freecodecamp or The Odin Project.</p>
+                    </div>
+                </div>
+                <div class="team-member fadeInUp">
+                    <div class="member-info">
+                        <h3>Jacob Callicott</h3>
+                        <p><strong>Role:</strong>Web developer</p>
+                        <p>[I have had a web development job for 4 months where I work in HTML, PHP, SQL, and Github. I made games using C# and
+                        python. This is my 4th semester in college.</p>
+                    </div>
+                    <img src="./images/profile/profile.png" alt="Jacob Callicott">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Your footer content -->
+    </footer>
+
+    <!-- <script src="scripts.js"></script> -->
+</body>
+
+</html>
